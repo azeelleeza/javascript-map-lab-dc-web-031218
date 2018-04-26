@@ -1,5 +1,6 @@
 describe('Uncovering alliances', function() {
   it('should have a `sortedRobots` array', function() {
+    // console.log(sortedRobots);
     expect(sortedRobots).toBeAn('array');
   });
 
@@ -22,6 +23,7 @@ describe('Uncovering alliances', function() {
 
 describe('Zebra stripes', function() {
   it('should have a `coloredZebraStripes` array', function() {
+    console.log(coloredZebraStripes);
     expect(coloredZebraStripes).toBeAn('array');
   });
 
